@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  news_bot:
+    build: .
+    container_name: tg_news_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./news_bot.db:/app/news_bot.db
