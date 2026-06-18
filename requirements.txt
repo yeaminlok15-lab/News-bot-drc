@@ -1,0 +1,6 @@
+python-telegram-bot[job-queue]==21.1.1
+aiosqlite==0.20.0
+feedparser==6.0.11
+google-generativeai==0.5.2
+python-dotenv==1.0.1
+beautifulsoup4==4.12.3
